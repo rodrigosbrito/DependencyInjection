@@ -3,8 +3,13 @@
 ```javascript
 <TargetFramework>net7.0</TargetFramework>
 ```
+## Usage
+In Postman or Insomnia, calling 'localhost' and sending two different requests, looking up the IDs, and checking how the lifecycles work. 
 
-
+#### First Request:
+![First Request](https://i.imgur.com/YrS5yMJ.png)
+#### Second Request:
+![Second Request](https://imgur.com/C9LgGPM.png)
 
 In .NET, Dependency Injection (DI) is a design pattern that allows you to decouple an object's creation and usage, making your application more modular and easier to maintain. When you use DI, the lifecycle of a dependency can be an important consideration.
 
